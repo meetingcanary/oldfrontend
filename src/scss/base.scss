@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-family;
+  line-height: 1.625;
+  font-weight: 100;
+}
+
+a, a:visited {
+  color: $primary;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

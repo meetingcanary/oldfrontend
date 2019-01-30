@@ -1,0 +1,11 @@
+$font-family: 'Nunito', sans-serif;
+$primary: #EC5D57;
+
+@import '../node_modules/normalize.css/normalize.css';
+
+@import './scss/base.scss';
+@import './scss/grid.scss';
+@import './scss/container.scss';
+@import './scss/typography.scss';
+@import './scss/hero.scss';
+@import './scss/nav.scss';

@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+  width: 100%;
+
+  &.vertical {
+    flex-direction: column;
+    height: 100%;
+
+    &.vcentered {
+      justify-content: center;
+
+      & > * {
+        flex-grow: 0;
+      }
+    }
+  }
+
+  &.no-gutters {
+    justify-content: space-between;
+
+    & > * {
+      margin: 0;
+    }
+  }
+
+  & > * {
+    flex: 1;
+    margin: 1%;
+  }
+
+  @media (max-width: 400px) {
+    display: block;
+
+    & > * {
+      margin: 1%;
+    }
+  }
+}

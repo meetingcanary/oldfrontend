@@ -1,0 +1,21 @@
+{
+  "name": "parlay",
+  "version": "0.0.0",
+  "description": "A landing page for Parlay.work",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angled-edges": "github:NigelOToole/angled-edges",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.16.1",
+    "surge": "^0.20.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.8"
+  }
+}
